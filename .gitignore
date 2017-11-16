@@ -1,0 +1,17 @@
+node_modules/
+*.iml
+*.log
+**/*.log
+.gitmodules
+
+### VisualStudioCode ###
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+src/
+*.html
+
+
