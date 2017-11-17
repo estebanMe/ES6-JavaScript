@@ -10,7 +10,6 @@ try {
     for (var _iterator = numeros[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
         var numero = _step.value;
 
-
         console.log(numero);
     }
 } catch (err) {
