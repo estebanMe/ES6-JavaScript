@@ -30,3 +30,31 @@ var saludar2 = function saludar2() {
 var saludar1 = function saludar1() {
     return "Hola Mundo";
 };
+
+// Otro ejemplo retornando
+
+var saludarPersona = function saludarPersona(nombre) {
+    var salida = "Hola, " + nombre;
+    return salida;
+};
+
+var saludarPersona2 = function saludarPersona2(nombre) {
+    var salida = "Hola " + nombre;
+    return salida;
+};
+
+var obtenerLibro = function obtenerLibro(id) {
+    return {
+        id: id,
+        nombre: "Piratas Caribe"
+    };
+};
+
+var obtenerLibros = function obtenerLibros(id) {
+    return {
+        id: "" + id,
+        nombre: "Carlos"
+    };
+};
+
+console.log(obtenerLibros(2));
